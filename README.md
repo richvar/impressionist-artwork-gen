@@ -12,6 +12,7 @@ Click [here](https://colab.research.google.com/drive/1rmR026gTGRpxITKUvDGvfH_gi7
 
 Example images produced
 
+## Training
 Talk about code - sourced/how it works
 
 ## Contributing
