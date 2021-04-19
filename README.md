@@ -10,7 +10,7 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
 
 <details>
   <summary>Exhibit 1</summary>
-![alt text](https://imgur.com/UhUqXIc)
+<img src="https://imgur.com/UhUqXIc"/>
 </details>
 
 ## Training
