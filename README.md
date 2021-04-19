@@ -10,7 +10,7 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
 
 <details>
   <summary>Exhibit 1</summary>
-<blockquote class="imgur-embed-pub" lang="en" data-id="UhUqXIc"><a href="https://imgur.com/UhUqXIc">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![alt text](https://imgur.com/UhUqXIc)
 </details>
 
 ## Training
