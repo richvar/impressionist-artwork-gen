@@ -13,8 +13,6 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
   
 <img src="https://i.imgur.com/UhUqXIc.png"/>
 </details> 
-
-
 </details>
   <summary>Exhibit 2</summary>
   
