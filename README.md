@@ -13,7 +13,22 @@ Click [here](https://colab.research.google.com/drive/1rmR026gTGRpxITKUvDGvfH_gi7
 Example images produced
 
 ## Training
-Talk about code - sourced/how it works
+
+I began by scraping WikiArt.org for paintings marked under Impressionism using a scraper created by robbiebarat, linked [here](https://github.com/richvar/art-DCGAN/blob/master/genre-scraper.py). I scanned over the dataset and got rid of paintings that did not fit into what I was looking for (pictures of statues, renaissance style paintings, etc.) 
+
+I was left with about 3,670 images that I then resized to 1024x1024 using ImageMagick with this command:
+'''bash
+magick mogrify -resize 1024x1024! *.jpg
+'''
+
+I ran into some trouble during the training process and found that the dataset needed to fit certain criteria: being all the same resolution and the same color space. I looked back to my dataset and run this command using ImageMagick:
+'''bash
+magick identify *.jpg
+'''
+
+This output a list of all images in the folder I pointed it to and their attributes. I was able to make sure all images resized correctly to 1024x1024 and ctrl-f'ed inside the terminal for the term "gray". Every image with its colorspace listed as "Grayscale" instead of "sRGB" was then deleted. Training worked perfecly from this point on. 
+
+I opted to train the GAN through Google Colab, which allows for running code using Google GPUs and SSDs each in exchange for having to restart your runtime every so often. I would restart my runtime until I was connected to a Tesla V100 for more efficient training. The model was trained for about 4 days, going through about [insert kimg here].
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
