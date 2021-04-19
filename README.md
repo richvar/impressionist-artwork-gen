@@ -8,6 +8,12 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
 
 ## Artwork gallery:
 
+# A collapsible section with markdown
+<details>
+  <summary>Exhibit 1</summary>
+  
+![Image](https://i.imgur.com/UhUqXIc.png)
+</details>
 
 ## Training
 
