@@ -4,7 +4,7 @@ Include thing here with morphing training gif with title, eye catching
 
 Using Nvidia's StyleGAN2-ADA architecture, I trained a GAN to generate Impressionist artworks based on a dataset of ~4,000 images at 1024x1024 resolution. 
 
-## Artwork Generator found here:
+# Artwork Generator found here:
 
 Click [here](https://colab.research.google.com/drive/1rmR026gTGRpxITKUvDGvfH_gi7zC2Bq7?usp=sharing) to open Google Colab to generate your own artworks. 
 
