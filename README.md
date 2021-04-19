@@ -14,9 +14,9 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
 </details>
 
 <details>
-  <summary>Exhibit 1</summary>
+  <summary>Exhibit 2</summary>
   
-![Image](https://i.imgur.com/UhUqXIc.png)
+![Image](https://i.imgur.com/yTgyp0D.png)
 </details>
 
 ## Training
