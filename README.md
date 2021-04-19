@@ -17,14 +17,14 @@ Example images produced
 I began by scraping WikiArt.org for paintings marked under Impressionism using a scraper created by robbiebarat, linked [here](https://github.com/richvar/art-DCGAN/blob/master/genre-scraper.py). I scanned over the dataset and got rid of paintings that did not fit into what I was looking for (pictures of statues, renaissance style paintings, etc.) 
 
 I was left with about 3,670 images that I then resized to 1024x1024 using ImageMagick with this command:
-'''bash
+```bash
 magick mogrify -resize 1024x1024! *.jpg
-'''
+```
 
 I ran into some trouble during the training process and found that the dataset needed to fit certain criteria: being all the same resolution and the same color space. I looked back to my dataset and run this command using ImageMagick:
-'''bash
+```bash
 magick identify *.jpg
-'''
+```
 
 This output a list of all images in the folder I pointed it to and their attributes. I was able to make sure all images resized correctly to 1024x1024 and ctrl-f'ed inside the terminal for the term "gray". Every image with its colorspace listed as "Grayscale" instead of "sRGB" was then deleted. Training worked perfecly from this point on. 
 
