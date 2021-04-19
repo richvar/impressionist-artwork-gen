@@ -8,7 +8,7 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
 
 ## Artwork gallery:
 
-Example images produced
+![alt text](https://imgur.com/UhUqXIc)
 
 ## Training
 
