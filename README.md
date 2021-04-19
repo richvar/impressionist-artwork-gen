@@ -12,21 +12,12 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
   <summary>Exhibit 1</summary>
   
 <img src="https://i.imgur.com/UhUqXIc.png"/>
+<details>
+ 
+ <details>
   <summary>Exhibit 2</summary>
   
 <img src="https://i.imgur.com/yTgyp0D.png"/>
-</details>
-
-
-# A collapsible section with markdown
-<details>
-  <summary>Click to expand!</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
 </details>
 
 ## Training
