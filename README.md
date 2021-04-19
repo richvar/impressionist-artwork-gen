@@ -6,7 +6,7 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
 
 ## Artwork Generator:
 
-Click [here](https://colab.research.google.com/drive/1rmR026gTGRpxITKUvDGvfH_gi7zC2Bq7?usp=sharing) to open Google Colab to generate your own artworks. 
+##Click [here](https://colab.research.google.com/drive/1rmR026gTGRpxITKUvDGvfH_gi7zC2Bq7?usp=sharing) to open Google Colab to generate your own artworks. 
 
 ## Artwork gallery:
 
