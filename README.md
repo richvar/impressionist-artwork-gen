@@ -8,7 +8,9 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
 ## [Click here to open Google Colab to generate your own artworks.](https://colab.research.google.com/drive/1rmR026gTGRpxITKUvDGvfH_gi7zC2Bq7?usp=sharing)
 
 ## Artwork gallery:
-Click exhibits to expand image
+
+Click dropdowns below to expand images.
+
 <details>
   <summary>Exhibit 1</summary>
   
