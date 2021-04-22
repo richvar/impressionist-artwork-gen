@@ -37,7 +37,7 @@ This output a list of all images in the folder I pointed it to and their attribu
 
 I opted to train the GAN through Google Colab with a template shown [here](https://github.com/Hephyrius/Stylegan2-Ada-Google-Colab-Starter-Notebook), which allows for running code using Google GPUs and SSDs each in exchange for having to restart your runtime every so often. I would restart my runtime until I was connected to a Tesla V100 for more efficient training. The model was trained for about 6 days, going through about [insert kimg here].
 
-## Issues
+## Possible Improvements to Training
 While landscapes look great, portraits leave something to be desired. In a later iteration of this project, I would either take out portraits entirely or standardize them (all looking the same way, head in same position in frame) for better results. 
 
 ## Contributing
