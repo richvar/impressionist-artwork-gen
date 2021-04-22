@@ -21,6 +21,13 @@ Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-
 ![Image](https://i.imgur.com/yTgyp0D.png)
 </details>
 
+<details>
+  <summary>Exhibit 3</summary>
+  
+![Image](https://i.imgur.com/6MtJCG6.png)
+</details>
+
+
 ## Training
 
 I began by scraping WikiArt.org for paintings marked under Impressionism using a scraper created by robbiebarat, linked [here](https://github.com/robbiebarrat/art-DCGAN/blob/master/genre-scraper.py). I scanned over the dataset and got rid of paintings that did not fit into what I was looking for (pictures of statues, renaissance style paintings, etc.) 
