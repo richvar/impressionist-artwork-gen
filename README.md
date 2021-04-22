@@ -1,7 +1,5 @@
 # Impressionist Artwork Generation with StyleGAN2-ADA
 
-Include thing here with morphing training gif with title, eye catching
-
 ![Interpolation-gif](https://github.com/richvar/random-hosting-github-bypass/blob/main/interpolation_impression_movie.gif)
 
 
