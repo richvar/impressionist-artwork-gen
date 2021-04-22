@@ -2,8 +2,7 @@
 
 Include thing here with morphing training gif with title, eye catching
 
--![Interpolation-Gif](http://i.imgur.com/VqkLutOh.gif)
-+<img src="/art/sample.gif?raw=true" width="200px">
+<img src="http://i.imgur.com/VqkLutOh.gif"/>
 
 Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-ada), I trained a GAN to generate Impressionist artworks based on a dataset of ~4,000 images at 1024x1024 resolution. 
 
