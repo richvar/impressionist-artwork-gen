@@ -20,7 +20,7 @@ Click dropdowns below to expand images.
 <details>
   <summary>Exhibit 2</summary>
   
-![Image](https://i.imgur.com/6MtJCG6.png)
+![Image](https://i.imgur.com/Ziz3pud.png)
 </details>
 
 <details>
