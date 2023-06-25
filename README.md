@@ -5,7 +5,7 @@
 
 Using [Nvidia's StyleGAN2-ADA architecture](https://github.com/NVlabs/stylegan2-ada), I trained a GAN to generate Impressionist artworks based on a dataset of ~4,000 images at 1024x1024 resolution. 
 
-## [Click here to open Google Colab to generate your own artworks.](https://colab.research.google.com/drive/1rmR026gTGRpxITKUvDGvfH_gi7zC2Bq7?usp=sharing)
+## Check out a large gallery of photos at [thismonetdoesnotexist.com](https://www.thismonetdoesnotexist.com)
 
 ## Artwork gallery:
 
