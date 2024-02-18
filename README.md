@@ -16,12 +16,12 @@ I was left with about 3,670 images that I then resized to 1024x1024 using ImageM
 magick mogrify -resize 1024x1024! *.jpg
 ```
 
-I ran into some trouble during the training process and found that the dataset needed to fit certain criteria: being all the same resolution and the same color space. I looked back to my dataset and run this command using ImageMagick:
+I ran into some trouble during the training process and found that the dataset needed to fit certain criteria; namely all photos being the same resolution and color space. I looked back to my dataset and ran using ImageMagick:
 ```bash
 magick identify *.jpg
 ```
 
-This output a list of all images in the folder I pointed it to and their attributes. I was able to make sure all images resized correctly to 1024x1024 and ctrl-f'ed inside the terminal for the term "gray". Every image with its colorspace listed as "Grayscale" instead of "sRGB" was then deleted. Training worked perfectly from this point on. 
+This output a list of all images in the folder and their attributes. I was able to make sure all images resized correctly to 1024x1024 and searched for "gray". Every image with its colorspace listed as "Grayscale" instead of "sRGB" was then deleted. Training worked perfectly from this point on. 
 
 I opted to train the GAN through Google Colab with a template shown [here](https://github.com/Hephyrius/Stylegan2-Ada-Google-Colab-Starter-Notebook), which allows for running code using Google GPUs and SSDs each in exchange for having to restart your runtime every so often. I would restart my runtime until I was connected to a Tesla V100 for more efficient training. The model was trained for about 5 days.
 
@@ -30,5 +30,3 @@ While landscapes look great, portraits leave something to be desired. In a later
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
